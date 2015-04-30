@@ -4,7 +4,7 @@ Group BibTeX databases of references.
 
 ####Usage:
 
-Use the environment variable `BIBINPUTS` to set the path to your local machine where you cloned this repo. This way, the `\bibliograph` command works for all group members (as no hard path is provided to the database files).
+Use the environment variable `BIBINPUTS` to set the path to your local machine where you cloned this repo. This way, the `\bibliography` command works for all group members (as no hard path is provided to the database files).
 
 Sometimes, processing an article with LaTeX generates an additional `.bib` file in your working directory for footnotes that are added to the list of references (this happens with the RevTeX format). You then have to remember to copy that file over to your `BIBINPUTS` location (with the other BibTeX files), or your `\bibliography` won't find it, and you will get an erro:
 
