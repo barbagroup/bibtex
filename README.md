@@ -17,7 +17,10 @@ followed by a failure to create the bibliography. SIGH. This can stump you and m
 ####Environment variables on Mac
 
 Up to Lion (10.7), you can use the file `MacOSX/environment.plist`
-To change its contents, open it with:  `open ~/.MacOSX/environment.plist`
+To change its contents, open it with: 
+
+`open ~/.MacOSX/environment.plist`
+
 See the blog ["How to set an environment variable in Mac OS X"](http://www.dowdandassociates.com/blog/content/howto-set-an-environment-variable-in-mac-os-x-home-slash-dot-macosx-slash-environment-dot-plist/)
 
 This does not work from 10.8 onwards, though. After Mountain Lion, you have to use `launched`
