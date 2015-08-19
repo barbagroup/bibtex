@@ -26,3 +26,16 @@ See the blog ["How to set an environment variable in Mac OS X"](http://www.dowda
 
 This does not work from 10.8 onwards, though. After Mountain Lion, you have to use `launched`
 More details in [blog posts](http://www.dowdandassociates.com/blog/content/howto-set-an-environment-variable-in-mac-os-x-launchd-plist/) and [StackOverflow](http://stackoverflow.com/questions/135688/setting-environment-variables-in-os-x/3756686#3756686).
+
+#####On Yosemite:
+The answer is found on a [StackOverflow thread](http://stackoverflow.com/questions/25385934/setting-environment-variables-via-launchd-conf-no-longer-works-in-os-x-yosemite), like everything.
+
+Launch `AppleScript Editor`, then enter a command like this:
+
+`do shell script "launchctl setenv variablename value"`
+
+(Use multiple lines if you want to set multiple variables)
+
+Now save (⌘+s) as *File format: Application*. Click the Run button to get your variable set right now. (Restart any apps that you want to take this variable, like TeXShop.)
+
+Finally, open System Settings → Users & Groups → Login Items and add your new application.
