@@ -2,7 +2,7 @@
 
 Group BibTeX databases of references.
 
-####Usage:
+#### Usage:
 
 Use the environment variable `BIBINPUTS` to set the path to your local machine where you cloned this repo. This way, the `\bibliography` command works for all group members (as no hard path is provided to the database files).
 
@@ -27,7 +27,7 @@ See the blog ["How to set an environment variable in Mac OS X"](http://www.dowda
 This does not work from 10.8 onwards, though. After Mountain Lion, you have to use `launched`
 More details in [blog posts](http://www.dowdandassociates.com/blog/content/howto-set-an-environment-variable-in-mac-os-x-launchd-plist/) and [StackOverflow](http://stackoverflow.com/questions/135688/setting-environment-variables-in-os-x/3756686#3756686).
 
-#####On Yosemite:
+##### On Yosemite:
 The answer is found on a [StackOverflow thread](http://stackoverflow.com/questions/25385934/setting-environment-variables-via-launchd-conf-no-longer-works-in-os-x-yosemite), like everything.
 
 Launch `AppleScript Editor`, then enter a command like this:
